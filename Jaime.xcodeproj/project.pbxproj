@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		5C0BEDF7BDA6939E1B992038 /* Pods_Jaime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08221326D1CF82F4944F03E1 /* Pods_Jaime.framework */; };
 		8B0E39B61F9BB2A8001D1293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E39B51F9BB2A8001D1293 /* AppDelegate.swift */; };
-		8B0E39B81F9BB2A8001D1293 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0E39B71F9BB2A8001D1293 /* ViewController.swift */; };
 		8B0E39BB1F9BB2A8001D1293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0E39B91F9BB2A8001D1293 /* Main.storyboard */; };
 		8B0E39BD1F9BB2A8001D1293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0E39BC1F9BB2A8001D1293 /* Assets.xcassets */; };
 		8B0E39C01F9BB2A8001D1293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0E39BE1F9BB2A8001D1293 /* LaunchScreen.storyboard */; };
 		8B0E39C91F9BB790001D1293 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0E39C81F9BB790001D1293 /* MapKit.framework */; };
 		8B0E39CB1F9BB79B001D1293 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B0E39CA1F9BB79B001D1293 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		8B4EEA1B1FA4F32D00F3B237 /* RLLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4EEA1A1FA4F32D00F3B237 /* RLLogin.storyboard */; };
+		8B4EEA1D1FA4F3DD00F3B237 /* RLLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4EEA1C1FA4F3DD00F3B237 /* RLLoginViewController.swift */; };
+		8BFBF4561FA4E33400901C96 /* RLLightNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBF4551FA4E33400901C96 /* RLLightNavigationController.swift */; };
+		8BFBF4591FA4E7BA00901C96 /* RLColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBF4581FA4E7BA00901C96 /* RLColors.swift */; };
+		8BFBF45B1FA4EC0B00901C96 /* RLLightNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFBF45A1FA4EC0B00901C96 /* RLLightNavigationControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +26,17 @@
 		10B1CF796B8A95CA4BF60B57 /* Pods-Jaime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jaime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jaime/Pods-Jaime.debug.xcconfig"; sourceTree = "<group>"; };
 		8B0E39B21F9BB2A8001D1293 /* Jaime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jaime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B0E39B51F9BB2A8001D1293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B0E39B71F9BB2A8001D1293 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B0E39BA1F9BB2A8001D1293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B0E39BC1F9BB2A8001D1293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B0E39BF1F9BB2A8001D1293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B0E39C11F9BB2A9001D1293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B0E39C81F9BB790001D1293 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8B0E39CA1F9BB79B001D1293 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8B4EEA1A1FA4F32D00F3B237 /* RLLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RLLogin.storyboard; sourceTree = "<group>"; };
+		8B4EEA1C1FA4F3DD00F3B237 /* RLLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLLoginViewController.swift; sourceTree = "<group>"; };
+		8BFBF4551FA4E33400901C96 /* RLLightNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLLightNavigationController.swift; sourceTree = "<group>"; };
+		8BFBF4581FA4E7BA00901C96 /* RLColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLColors.swift; sourceTree = "<group>"; };
+		8BFBF45A1FA4EC0B00901C96 /* RLLightNavigationControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLLightNavigationControllerDelegate.swift; sourceTree = "<group>"; };
 		A7F4F02A82596D8F95AC89D8 /* Pods-Jaime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jaime.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jaime/Pods-Jaime.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,11 +84,11 @@
 		8B0E39B41F9BB2A8001D1293 /* Jaime */ = {
 			isa = PBXGroup;
 			children = (
-				8B0E39B51F9BB2A8001D1293 /* AppDelegate.swift */,
-				8B0E39B71F9BB2A8001D1293 /* ViewController.swift */,
-				8B0E39B91F9BB2A8001D1293 /* Main.storyboard */,
-				8B0E39BC1F9BB2A8001D1293 /* Assets.xcassets */,
-				8B0E39BE1F9BB2A8001D1293 /* LaunchScreen.storyboard */,
+				8BFBF4531FA4E11200901C96 /* Modules */,
+				8BFBF44D1FA4DEE400901C96 /* Models */,
+				8BFBF44E1FA4DEF500901C96 /* Networking */,
+				8BFBF4501FA4DF0A00901C96 /* Supporting Files */,
+				8BFBF44F1FA4DEFC00901C96 /* Assets */,
 				8B0E39C11F9BB2A9001D1293 /* Info.plist */,
 			);
 			path = Jaime;
@@ -94,6 +102,82 @@
 				08221326D1CF82F4944F03E1 /* Pods_Jaime.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BFBF44D1FA4DEE400901C96 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8BFBF44E1FA4DEF500901C96 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8BFBF44F1FA4DEFC00901C96 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8B0E39BC1F9BB2A8001D1293 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8BFBF4501FA4DF0A00901C96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B0E39BE1F9BB2A8001D1293 /* LaunchScreen.storyboard */,
+				8B0E39B51F9BB2A8001D1293 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BFBF4511FA4E0D300901C96 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBF4521FA4E0DB00901C96 /* Main */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8BFBF4521FA4E0DB00901C96 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8B4EEA1C1FA4F3DD00F3B237 /* RLLoginViewController.swift */,
+				8B4EEA1A1FA4F32D00F3B237 /* RLLogin.storyboard */,
+				8B0E39B91F9BB2A8001D1293 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8BFBF4531FA4E11200901C96 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBF4571FA4E79600901C96 /* Colors */,
+				8BFBF4541FA4E2D500901C96 /* Custom Views */,
+				8BFBF4511FA4E0D300901C96 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8BFBF4541FA4E2D500901C96 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBF4551FA4E33400901C96 /* RLLightNavigationController.swift */,
+				8BFBF45A1FA4EC0B00901C96 /* RLLightNavigationControllerDelegate.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		8BFBF4571FA4E79600901C96 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				8BFBF4581FA4E7BA00901C96 /* RLColors.swift */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4EEA1B1FA4F32D00F3B237 /* RLLogin.storyboard in Resources */,
 				8B0E39C01F9BB2A8001D1293 /* LaunchScreen.storyboard in Resources */,
 				8B0E39BD1F9BB2A8001D1293 /* Assets.xcassets in Resources */,
 				8B0E39BB1F9BB2A8001D1293 /* Main.storyboard in Resources */,
@@ -219,7 +304,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B0E39B81F9BB2A8001D1293 /* ViewController.swift in Sources */,
+				8BFBF4561FA4E33400901C96 /* RLLightNavigationController.swift in Sources */,
+				8BFBF4591FA4E7BA00901C96 /* RLColors.swift in Sources */,
+				8B4EEA1D1FA4F3DD00F3B237 /* RLLoginViewController.swift in Sources */,
+				8BFBF45B1FA4EC0B00901C96 /* RLLightNavigationControllerDelegate.swift in Sources */,
 				8B0E39B61F9BB2A8001D1293 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

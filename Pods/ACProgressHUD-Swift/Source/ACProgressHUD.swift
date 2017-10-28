@@ -56,7 +56,7 @@ open class ACProgressHUD : NSObject {
     open var indicatorColor : UIColor = UIColor.black
     
     /// Set the **Background Color** of Hud View.
-    open var hudBackgroundColor : UIColor = UIColor.init(colorLiteralRed: 240/255.0, green: 240/255.0, blue: 240/255.0, alpha: 1.0)
+    open var hudBackgroundColor : UIColor = UIColor(red: 240/255.0, green: 240/255.0, blue: 240/255.0, alpha: 1.0)
 
     /// Show Dim **Background** ?
     open var enableBackground : Bool = true

@@ -1,18 +1,17 @@
 //
-//  ViewController.swift
+//  RLLoginViewController.swift
 //  Jaime
 //
-//  Created by Rafael Lopez on 10/21/17.
+//  Created by Rafael Lopez on 10/28/17.
 //  Copyright © 2017 Rflpz. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class RLLoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "x"
+        title = "Login"
     }
 }
-
